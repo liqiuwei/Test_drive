@@ -1,0 +1,37 @@
+/*模型盒子边框设置*/
+
+.box1{
+	width: 500px;
+	height: 200px;
+	background: #169aff;
+	/*内边距*/
+	padding: 20px;
+	/*边框线(线条的样式,线条的宽度,线条的颜色)*/
+	border: solid 2px red;
+	/*外边距*/
+	margin: 50px;
+
+}
+
+.box2{
+	width: 500px;
+	height: 200px;
+	background: #55ff71;
+	/*内边距上右下左边距单独设置(只写一个设置的是四个方向,传2个值第一个是上下,第二个是左右)*/
+	padding: 20px 10px 0px 30px;
+	border: double 3px red;
+	/*外边距上右下左边距单独设置(只写一个设置的是四个方向,传2个值第一个是上下,第二个是左右)*/
+	margin: 50px;
+
+}
+
+.box3{
+	width: 500px;
+	height: 200px;
+	background: #7d2eff;
+	padding: 20px;
+	/*只设置一边*/
+	border-right: dotted 4px red;
+	margin: 50px;
+
+}

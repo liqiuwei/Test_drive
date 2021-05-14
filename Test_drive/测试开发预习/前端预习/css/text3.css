@@ -1,0 +1,44 @@
+/*浮动定位*/
+.box1{
+	width: 200px;
+	height: 200px;
+	background: #169aff;
+	/*向右浮动*/
+	/*float: right;*/
+	float: left;
+	/*设置元素不显示在页面*/
+	display: none;
+}
+
+.box2{
+	width: 200px;
+	height: 200px;
+	background: #55ff71;
+	/*向左浮动*/
+	float: left;
+	/*隐藏超出盒子范围的元素*/
+	overflow: hidden;
+
+}
+
+
+
+.box3{
+	width: 200px;
+	height: 200px;
+	background: #7d2eff;
+		/*向左浮动*/
+	float: left;
+	border: solid 2px red;
+	/*设置边框圆角*/
+	border-radius: 20px;
+
+}
+
+.box4{
+	width: 200px;
+	height: 200px;
+	background: #36fff5;
+		/*向左浮动*/
+	float: left;
+}

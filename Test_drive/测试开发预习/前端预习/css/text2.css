@@ -1,0 +1,52 @@
+.box1{
+	width: 500px;
+	height: 200px;
+	background: #169aff;
+	padding: 20px;
+	/*设置盒模型水平居中*/
+	/*margin: 50px auto;*/
+}
+
+.box2{
+	width: 500px;
+	height: 200px;
+	background: #55ff71;
+	padding: 20px;
+	/*margin: 50px;*/
+	/*相对位置定位*/
+	position: relative;
+	/*相对左边和上边都偏移100*/
+	left: 100px;
+	top: 100px;
+}
+
+
+
+.box3{
+	width: 500px;
+	height: 200px;
+	background: #7d2eff;
+	padding: 20px;
+	/*margin: 50px;*/
+	/*绝对定位,以来父元素 */
+	position: absolute;
+	left: 50px;
+	top:50px;
+
+}
+
+.box{
+	position: absolute;
+	left: 200px;
+	width: 600px;
+	height: 800px;
+	background: #cccccc;
+}
+
+.box4{
+	width: 500px;
+	height: 200px;
+	background: #36fff5;
+	position: fixed;
+
+}

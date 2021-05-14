@@ -1,0 +1,69 @@
+.side{
+    background-image: url("img/01-1.jpg");
+    background-repeat: repeat-y;
+	position: absolute;
+	width: 800px;
+	height: 1000px;
+}
+.characters{
+	position: absolute;
+	left: 700px;
+	width: 1200px;
+	height: 1000px;
+}
+.wenzi{
+	position: absolute;
+	left: 200px;
+	height: 100px;
+	top: 200px;
+}
+.huany{
+	font-size: 50px;
+}
+.wenzi2{
+	position: absolute;
+	left: 200px;
+	height: 100px;
+	top: 300px;
+
+}
+#meiyitian{
+	font-size: 38px;
+}
+
+#zhuche{
+	position: absolute;
+	left: 200px;
+	height: 200px;
+	top: 400px;
+
+}
+#user{
+	font-size: 30px;
+	width: 450px;
+	height: 50px;
+}
+#pwd{
+	font-size: 30px;
+	width: 450px;
+	height: 50px;
+}
+#select{
+	font-size: 30px;
+	height: 55px;
+	/*width: 450px;*/
+
+}
+#ph{
+	font-size: 30px;
+	width: 363px;
+	height: 50px;
+}
+#zhuce2{
+	font-size: 30px;
+	width: 463px;
+	height: 60px;
+	background: #06ec06;
+	border-radius: 8px;
+
+}

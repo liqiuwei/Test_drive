@@ -1,0 +1,124 @@
+/*标签选择器*/
+span{
+	color: red;
+	
+}
+
+/*类属性选择器*/
+/*.box2{*/
+	/*文字水平居中*/
+	/*text-align: center;*/
+/*}*/
+
+/*id选择器*/
+/*#box4{*/
+	/*color: red;*/
+/*}*/
+
+/*通过属性选择(name属性的a标签)*/
+/*a[name]{*/
+	/*color: red;*/
+/*}*/
+/*层级选择器*/
+/*.box5 a{*/
+	/*color: red;*/
+
+/*}*/
+/*.box5 p{*/
+	/*color: red;*/
+	
+/*}*/
+/*组选择器*/
+/*.box1,.box2,.box3{*/
+
+	/*height: 300px;*/
+	/*background: #ffff99;*/
+/*}*/
+
+/*.box3{*/
+	/*设置字体的颜色*/
+    /*color: green;*/
+    /*设置字体的大小*/
+    /*font-size: 36px;*/
+    /*字体加粗*/
+    /*font-weight: bold;*/
+    /*字体样式*/
+    /*font-family: "Microsoft YaHei UI";*/
+    /*行高*/
+    /*line-height: 60px;*/
+    /*是否加粗,字体大小,字体行高和样式写入一行*/
+    /*font:  bold 36px/60px "Microsoft YaHei UI";*/
+        /*字体倾斜*/
+    /*font-style: italic;*/
+    /*首行缩进*/
+    /*text-indent: 40px;*/
+
+
+/*}*/
+/*给整个页面设置背景*/
+/*body{*/
+	/*16进制表示法*/
+    /*background: #cccccc;*/
+    /*单词*/
+    /*background: darkgray;*/
+    /*rgb*/
+    /*background: rgb(0,0,0);*/
+    /*rgb方法透明度*/
+    /*background: rgba(180,238,180,0.3)*/
+/*}*/
+
+
+/*图片背景*/
+/*body{*/
+	/*默认是屏铺满*/
+	/*height: 1000px;*/
+    /*background: url("../img/123.png");*/
+    /*取消平铺*/
+    /*background-repeat: no-repeat;*/
+    /*竖着铺满*/
+    /*background-repeat: repeat-y;*/
+    /*横着铺满*/
+    /*background-repeat: repeat-x;*/
+    /*顶部剧中*/
+    /*background-position: top;*/
+    /*中心点居中*/
+    /*background-position: center;*/
+    /*底部居中*/
+    /*background-position: bottom;*/
+	/*靠左剧中*/
+	/*background-position: left;*/
+	/*/*靠右剧中**/
+	/*background-position: right;*/
+	/*百分比表示*/
+	/*background-position: 50% 50%*/
+	/*像素值*/
+	/*background-position: 200px 2000px*/
+	/*固定不动*/
+	/*background-attachment: fixed;*/
+	/*指定像素大小*/
+	/*background-size: 100px 100px;*/
+	/* 百分比设置像素大小*/
+	/*background-size: 10% 10%;*/
+	/*原始大小*/
+	/*background-size: auto;*/
+	/*背景填满容器*/
+	/*background-size: cover;*/
+
+/*}*/
+/*伪选择器*/
+/*hover当鼠标放在上面的时候向元素添加样式*/
+/*.box1:hover{*/
+	/*background: darkorange;*/
+/*}*/
+/*未被访问的链接添加样式*/
+/*.box1:link{*/
+	/*background: darkorange;*/
+/*}*/
+/*已被访问的链接添加样式*/
+/*.box1:visited{*/
+	/*background: darkorange;*/
+/*}*/
+/*向被激活的元素添加样式*/
+/*.box1:active{*/
+	/*background: darkorange;*/
+/*}
